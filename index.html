@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">School Name</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#travel">School name</a></li>
+                <li><a href="#movies">Campus life</a></li>
+                <li><a href="#environment">Achievements</a></li>
+                <li><a href="#books">What's New</a></li>
+                <li><a href="#aboutme">Alumni</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div>
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();"> *** Feel free to ask queries on school@gmail.com *** </marquee>
+
+    </div>
+    <img src="jpg.jpeg" class="img-responsive col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width: 100%">
+
+    <!--
+Start coding from here
+-->
+    <div class="container">
+        <div class="page-header" id="travel">
+            <h2 class="text-capitalize">campus life </h2>
+            <div class="row">
+                <div class="travel_mainDiv"> <img class="img-responsive" src="https://live.staticflickr.com/4809/39704276483_28584e2ef2_b.jpg">
+                    <h4 class="text-capitalize"><kbd>school church</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in 1978</h5>
+                    <p class="text-muted text-left">Write something about the mentioned place</p>
+                </div>
+                <div class="travel_mainDiv"> <img class="img-responsive" src="https://i.postimg.cc/KYzWbFpF/st2.jpg">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was built in 1980</h5>
+                    <p class="text-muted text-left">Write something about the mentioned place</p>
+                </div>
+                <div class="travel_mainDiv"> <img class="img-responsive" src="https://i.postimg.cc/cLDDX2xz/st3.jpg">
+                    <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was built in 1982</h5>
+                    <p class="text-muted text-left">Write something about the mentioned place</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="page-header" id="movies">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers_endgame"> <span class="glyphicon glyphicon-film"></span>
+            Inter School Debate On Environment Pollution<i class="fa fa-sort-desc"></i> </div>
+        <div id="avengers_endgame" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="movie1.jpeg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Won First Prize In Inter School Debate On Environment Pollution 
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </h5>
+                <p>Write about this achievement</p>
+            </div>
+        </div> <br> <br>
+        <div class="page-header" id="books">
+            <h2 class="text-capitalize">recommendation on books</h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Danny_the_champion_of_the_world"> <img src="91oa7T-wJ+L.jpg" class="img-esponsive">
+            <hr>
+            <p class="text-primary">Danny_the_champion_of_the_world</p>
+        </div>
+        <div class="modal fade" id="Danny_the_champion_of_the_world">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Danny_the_champion_of_the_world</h4>
+                    </div>
+                    <div class="modal-body"> <img src="91oa7T-wJ+L.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">A nice childhood book. It is adventures,emotional and funny book. <br> <a href="https://www.amazon.in/Danny-Champion-World-Dahl-Fiction/dp/0141365412/ref=sr_1_1?dchild=1&keywords=Danny_the_champion_of_the_world&qid=1631874213&sr=8-1">BEST BUY LINK</b></a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <section id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+
+
+        <div class="contact_1">
+
+            <a href="mailto:my@gmail.com?Subject=Hi">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+            </a>
+
+            <a href="#">
+                <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
